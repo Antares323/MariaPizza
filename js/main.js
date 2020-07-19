@@ -1,6 +1,6 @@
 $(document).ready(function () {
 	const circleType = new CircleType(document.querySelector('.head__name .name__text'));
-	if (window.screen.height >= 768) {
+	if (window.screen.width >= 768) {
 	  circleType.radius(420).dir(1.5);
 	} else {
 		circleType.radius(420).dir(1);
@@ -8,7 +8,7 @@ $(document).ready(function () {
 });
 
 $(document).scroll(function (){
-  if ($(document).width() > 785){
+  if ($(document).width() > 480){
     if ($(document).scrollTop () > $('header').height() + 10)
       $('header').addClass('fixed');
     else
