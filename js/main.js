@@ -32,7 +32,7 @@ var pizza = [
 			1 : 129,
 			2 : 169
 		},
-		img : "../img/pizza-1.jpg",
+		img : "img/pizza-1.jpg",
 		ingidients: "Соус, куриное филе, ананас"
 	},
 	{
